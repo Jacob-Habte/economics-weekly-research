@@ -1,37 +1,23 @@
 # Economics Weekly Research
 
-Companion code, data workflows, charts, and reproducibility notes for long-form Economics Weekly market research.
+Companion code, charts, and reproducibility notes for long-form Economics Weekly market analysis.
 
-Each article is kept in its own project folder so its datasets, figures, and Python environment remain separate from unrelated analysis.
+## Current project
 
-## Article project
+### [Private-Credit Market Analysis](private-credit-article/)
 
-### [Private Credit Article](private-credit-article/)
+A public-market study of business development companies, broader risk assets, high-yield credit spreads, drawdowns, volatility, and FSK’s performance relative to a peer basket.
 
-Research, code, charts, and data notes supporting the publication's private-credit coverage. The article-specific methodology and reproduction steps will be completed after its source files are imported and reviewed.
+The project includes a structured Jupyter notebook, a focused Python dependency file, selected publication-ready figures, documented data sources, and clear reproduction instructions.
 
-## Intended project structure
+## Repository standards
 
-```text
-private-credit-article/
-├── README.md          # Thesis, methodology, and instructions
-├── notebooks/         # Jupyter analysis
-├── src/               # Reusable Python scripts
-├── data/              # Small shareable inputs or source instructions
-├── outputs/           # Selected charts and result tables
-└── requirements.txt   # Article-specific dependencies
-```
-
-A project does not need every directory. Files are retained only when they help explain, reproduce, or audit the published analysis.
-
-## Reproducibility principles
-
-- Source data should be linked and dated.
-- Downloadable raw data should normally be retrieved by code rather than committed.
-- Important transformations and chart calculations should remain visible.
-- Selected final figures may be committed for easy review.
-- Credentials, virtual environments, caches, and private exports must remain outside Git.
-- Important assumptions and limitations should be documented.
+- Each article is contained within its own project folder.
+- Notebooks are organized with explanatory sections and portable paths.
+- Downloadable raw data stay outside version control.
+- Selected final figures are retained for review.
+- Credentials, private exports, local environments, and caches are excluded.
+- Assumptions and limitations are documented beside the analysis.
 
 ## Disclaimer
 
