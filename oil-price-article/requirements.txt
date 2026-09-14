@@ -1,0 +1,4 @@
+ipykernel>=6.29
+matplotlib>=3.9
+pandas>=2.2
+yfinance>=0.2.65
